@@ -3,3 +3,26 @@
 	margin:0;
 	padding: 0;
 }
+body{
+	font-family: 'EB Garamond', serif;
+}
+.menu{
+	background-color: #FF69B4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+
+.menu .flex-container{
+	justify-content: flex-start;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #E95853;
+}
