@@ -6,11 +6,12 @@
 body{
 	font-family: 'EB Garamond', serif;
 }
-.flex-container{
-	display: flex;
-	justify-content: center;
-	justify-content: space-between;
-	justify-content: space-around;
+
+
+li{
+	border-right: 1px solid black;
+	list-style: none;
+
 }
 
 .menu{
@@ -19,9 +20,11 @@ body{
 	height: 50px;
 	font-size: 20px;
 	align-items: center;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
 
 }
-
 
 a{
 	color: white;
@@ -31,3 +34,5 @@ a{
 a:hover{
 	color: #E95853;
 }
+
+
