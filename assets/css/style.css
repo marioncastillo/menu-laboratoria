@@ -6,18 +6,23 @@
 body{
 	font-family: 'EB Garamond', serif;
 }
+.flex-container{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
 .menu{
 	background-color: #FF69B4;
-	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	align-items: center;
 
 }
 
-.menu .flex-container{
-	justify-content: flex-start;
-}
+
 a{
 	color: white;
 	text-decoration: none;
