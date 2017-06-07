@@ -1,0 +1,40 @@
+/*@media (min-width: 535px) and (max-width: 824px){
+	.dosmenu{
+		display: none;
+	}
+	
+}*/
+
+@media (min-width: 200px) and (max-width: 534px){
+	.menu{
+		display: none;
+
+	}
+
+.dosmenu{
+	background-color: #1a1a1a;
+	width: 100%;
+	font-size: 20px;
+	display: flex;
+	text-align:left;
+	flex-direction: column;
+	font-family: 'Bubbler One', sans-serif;
+}
+.servicios li{
+	border-bottom: 1px solid black;
+	list-style: none;
+	padding: 20px;
+	padding-right: 70px;
+
+
+}
+.servicios li :hover{
+	background-color: grey;
+	padding: 20px;
+
+}
+
+
+}
+
+
